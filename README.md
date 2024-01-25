@@ -13,7 +13,7 @@ accessible to everyone on most likely, SourceForge.net.
 
 
 # How Do I use this repo?
-Make sure you have java and maven. Use an IDE of your choice. Type "mvn clean install -U" in the command line and then "run" the project. A sample file is the "big data peptide.csv" found in the project files.
+Make sure you have java and maven. Use an IDE of your choice. Type "mvn clean install -U" in the command line and then " mvn spring-boot:run" the project. A sample file is the "big data peptide.csv" found in the project files.
 
 # Disclaimer
 The goal was to have the entire installer, but that will have to be troublshot for another time. 
