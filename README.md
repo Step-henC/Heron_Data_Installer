@@ -2,7 +2,7 @@
 
 **Coming Soon**
 This will now become a publicly accessible website in the near future using React js. Video below of progress so far.
-[heron video](./heronsofar.mp4)
+[progress](https://youtu.be/KtQG9ibjdnc))
 
 # What is This?
 
