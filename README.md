@@ -2,7 +2,10 @@
 
 **Coming Soon**
 This will now become a publicly accessible website in the near future using React js. Video below of progress so far.
-[progress](https://youtu.be/KtQG9ibjdnc))
+
+
+https://github.com/Step-henC/Heron_Data_Installer/assets/98792412/e572a23d-f3c7-44db-8be1-9e447a1948c4
+
 
 # What is This?
 
