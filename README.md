@@ -7,7 +7,10 @@ This will now become a publicly accessible website in the near future using Reac
 
 
 
-https://github.com/Step-henC/Heron_Data_Installer/assets/98792412/e3e255a4-3c25-44d7-abbe-2a15ec5e0ee0
+
+https://github.com/Step-henC/Heron_Data_Installer/assets/98792412/a04f7ac5-efa3-4e54-b155-8f49c7156d57
+
+
 
 
 
