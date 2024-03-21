@@ -46,7 +46,11 @@
         <version>1.18.28</version>
         <scope>provided</scope>
     </dependency>
-</dependencies>
+        <dependency>
+            <groupId>io.github.pixee</groupId>
+            <artifactId>java-security-toolkit</artifactId>
+        </dependency>
+    </dependencies>
 
     <properties>
         <groupId>org.apache.maven.plugins</groupId>
@@ -54,7 +58,15 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <versions.java-security-toolkit>1.1.3</versions.java-security-toolkit>
     </properties>
-
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.github.pixee</groupId>
+                <artifactId>java-security-toolkit</artifactId>
+                <version>${versions.java-security-toolkit}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
