@@ -1,6 +1,7 @@
 package org.Heron.repository;
 
 
+import io.github.pixee.security.BoundedLineReader;
 import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
@@ -83,7 +84,7 @@ public class ReadingFile {
 
 
 
-            while ((line = br.readLine()) != null) {
+            while ((line = BoundedLineReader.readLine(br, 5_000_000)) != null) {
                 String[] replicate = line.split(splitBy);
                 if (iteration == 0) {
                     model.addColumn("Group ID for Technical Replicate");
